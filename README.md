@@ -19,3 +19,22 @@ The NLP web app offers the following features:
 **Text Completion**: Utilizes Hugging Face transformers to suggest completion options for partially entered text.
 
 **Question Answering**: Employs Hugging Face transformers to provide answers to questions based on a given context.
+
+## Requirements for running the app - 
+pandas==1.3.1
+
+streamlit==0.85.1
+
+stqdm==0.0.4
+
+spacy-streamlit==1.0.1
+
+spacy-transformers==1.0.3
+
+transformers==4.6.0
+
+spacy[transformers]
+
+spacy>=3.0.0,<4.0.0
+
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
