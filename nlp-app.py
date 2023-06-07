@@ -62,7 +62,7 @@ def main():
         """)
         
         
-        st.image('banner_image.jpg')
+        st.image('NLP.webp')
     
     
     
@@ -107,9 +107,9 @@ def main():
             for _ in stqdm(range(50), desc="Please wait a bit. The model is fetching the results !!"):
                 sleep(0.1)
             if sentiment =="POSITIVE":
-                st.write("""# This text has a Positive Sentiment.  🤗""")
+                st.write("""# This text has a Positive Sentiment 😄""")
             elif sentiment =="NEGATIVE":
-                st.write("""# This text has a Negative Sentiment. 😤""")
+                st.write("""# This text has a Negative Sentiment 😟""")
             elif sentiment =="NEUTRAL":
                 st.write("""# This text seems Neutral ... 😐""")
     
